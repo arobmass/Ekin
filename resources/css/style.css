@@ -1,6 +1,7 @@
 body{
   font-family: "Alegreya";
   font-size: 18px;
+  background-color: rgba(255, 250, 230, 1);
 }
 
 header{
@@ -33,6 +34,7 @@ header h3{
 .pictures{
   max-width: 1200px;
   margin: 0 auto;
+  background-color: rgba(255, 230, 230, 1);
 }
 
 .container{
@@ -40,16 +42,16 @@ header h3{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin: 25px 25px;
+  margin: 115px 25px;
 }
 
 .image{
-  width: 300px;
+  width: 500px;
   height: 300px;
   margin: 25px;
-  background-color: red;
   background-position: center;
   background-size: cover;
+  border: 10px solid black;
 }
 
 .queen{
@@ -62,4 +64,20 @@ header h3{
 
 .hearts{
   background-image: url(../../resources/images/hearts.jpg);
+}
+
+.big-image img{
+  width: 100%;
+}
+
+nav .end{
+  width: 100%
+  margin: 0 auto;
+}
+
+footer{
+  text-align: center;
+  margin-top: 100px;
+  color: rgba(51, 0, 0, 1);
+  font-size: 30px;
 }
