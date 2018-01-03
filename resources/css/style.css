@@ -66,6 +66,10 @@ header h3{
   background-image: url(../../resources/images/hearts.jpg);
 }
 
+.gray{
+  background-image: url(../../resources/images/gray.jpeg);
+}
+
 .big-image img{
   width: 100%;
 }
