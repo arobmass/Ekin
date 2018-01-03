@@ -33,7 +33,6 @@ header h3{
 
 .pictures{
   max-width: 1200px;
-  margin: 0 auto;
   background-color: rgba(255, 230, 230, 1);
 }
 
@@ -51,7 +50,7 @@ header h3{
   margin: 25px;
   background-position: center;
   background-size: cover;
-  border: 10px solid black;
+  border: 4px solid black;
 }
 
 .queen{
@@ -67,11 +66,17 @@ header h3{
 }
 
 .gray{
-  background-image: url(../../resources/images/gray.jpeg);
+  background-image: url(../../resources/images/gray.jpg);
 }
 
-.big-image img{
+.big-pic img{
   width: 100%;
+  align-items: center;
+}
+
+.bigger{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav .end{
@@ -84,4 +89,8 @@ footer{
   margin-top: 100px;
   color: rgba(51, 0, 0, 1);
   font-size: 30px;
+}
+
+.menu{
+  display: none;
 }
