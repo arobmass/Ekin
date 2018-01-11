@@ -149,3 +149,25 @@ margin-top: 12px;
   margin: 200px auto;
   line-height: 2;
 }
+
+
+/*media queries for phone */
+
+@media screen and (max-width: 500px){
+.desktop{
+  display: none;
+}
+.menu{
+  display: initial;
+  margin-left: 75px;
+}
+
+header h3{
+  font-size: 1.2rem;
+  margin-left: 50px;
+}
+
+.header-info{
+  margin-right: 0;
+}
+}
