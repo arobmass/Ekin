@@ -15,8 +15,8 @@ header{
 
 li{
   display: inline-flex;
-  margin-right: 25px;
 }
+
 
 h3{
   font-size: 2rem;
@@ -25,10 +25,16 @@ h3{
 a{
   text-decoration: none;
   color: rgba(153, 122, 0, 1);
+  padding-left: 15px;
+  margin-right: 100px;
 }
 
 header h3{
   margin-left: 25px;
+}
+
+.header-info{
+  margin-right: 40px;
 }
 
 .pictures{
@@ -102,9 +108,12 @@ display: none;
   position: absolute;
   display: none;
   background-color: rgba(51,0,0,.5);
-  height: 100px;
+  height: 140px;
   padding-top: 20px;
   margin-top: 15px;
+  width: 100px;
+  padding-left: 20px;
+  text-align: center;
 }
 
 .here{
@@ -112,7 +121,7 @@ display: none;
 }
 
 .tab{
-  width: 100px;
+  width: 85px;
 
 }
 
@@ -123,9 +132,20 @@ display: initial;
 
 li .tab{
 margin-bottom: 20px;
-margin-left: 5px;
 margin-top: 12px;
 }
  li .tab a{
    color: black;
+
  }
+
+ .tab a{
+   margin-left: -18px;
+ }
+
+
+.about{
+  width: 50%;
+  margin: 200px auto;
+  line-height: 2;
+}
